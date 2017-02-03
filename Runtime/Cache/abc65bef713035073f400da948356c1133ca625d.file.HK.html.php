@@ -1,0 +1,221 @@
+<?php /* Smarty version Smarty-3.1.6, created on 2017-01-14 11:06:04
+         compiled from "D:/php/www/ThinkPHP3/aeball_blog/Admin/View\Index\HK.html" */ ?>
+<?php /*%%SmartyHeaderCode:1774658799585216025-37966207%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    'abc65bef713035073f400da948356c1133ca625d' => 
+    array (
+      0 => 'D:/php/www/ThinkPHP3/aeball_blog/Admin/View\\Index\\HK.html',
+      1 => 1484363160,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '1774658799585216025-37966207',
+  'function' => 
+  array (
+  ),
+  'version' => 'Smarty-3.1.6',
+  'unifunc' => 'content_587995854ec92',
+  'variables' => 
+  array (
+    'dhid' => 0,
+  ),
+  'has_nocache_code' => false,
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_587995854ec92')) {function content_587995854ec92($_smarty_tpl) {?><html>
+<head>
+    <meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=gbk">
+<meta name="viewport" content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+<title>花园平安夜 祈福迎新年</title>
+<link href="<?php echo @CSS_URL;?>
+heka2.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="<?php echo @JS_URL;?>
+jquery.js"></script>
+</head>
+<body>
+<div id="sharemcover" onClick="document.getElementById('sharemcover').style.display='';" style=""><img src="<?php echo @IMAGES_URL;?>
+MgnnofmleM.png"></div>
+<div class="hot">
+  <p>点击文字可直接编辑，按底部按钮发送</p>
+</div>
+<script type="text/javascript" src="<?php echo @JS_URL;?>
+audio.js"></script> 
+<script>
+			window.addEventListener("DOMContentLoaded", function(){
+				playbox.init("playbox");
+			}, false);
+		</script> 
+<span id="playbox" class="btn_music on" onClick="playbox.init(this).play();">
+<audio src="<?php echo @MUSIC_URL;?>
+548a666f03844.mp3" loop id="audio"></audio>
+</span>
+<div class="cardWrap">
+  <style>
+.btn_music {
+display: inline-block;
+width: 35px;
+height: 35px;
+background: url('<?php echo @JS_URL;?>
+play.png') no-repeat center center;
+background-size: 100% auto;
+position: absolute;
+z-index: 100;
+left: 15px;
+top: 30px;
+}
+
+.btn_music.on {
+    background-image: url("<?php echo @JS_URL;?>
+stop.png");
+}
+
+ </style>
+  <img class="cardbg" src="<?php echo @IMAGES_URL;?>
+b.png">
+  <div class="messageBox">
+    <div class="user">
+      <div class="message">愿新的一年带给您祥和、喜悦，祝您和您的家人、朋友幸福安康！Happy New Year！</div>
+      <div class="name">百姓堂新年祝福贺卡</div>
+      <div class="time">2017年01月13日</div>
+    </div>
+    <div class="sendBtn-box"> <a class="sendBtn" onClick="document.getElementById('sharemcover').style.display='block';">转发贺卡</a> </div>
+    <div class="copyright"><a href="">祝福贺卡 2017版权信息</a></div>
+  </div>
+</div>
+
+
+<!--<?php if ($_smarty_tpl->tpl_vars['dhid']->value){?>-->
+<div id="leafContainer">
+  <div style="top: -100px; left: 378px; animation-name: fade, drop; animation-duration: 10.7761s, 10.7761s; animation-delay: 0.411284s, 0.411284s;"><img src="<?php echo @IMAGES_URL;?>
+snow3.png" style="animation-name: counterclockwiseSpinAndFlip; animation-duration: 7.45134s;"></div>
+  <div style="top: -100px; left: 460px; animation-name: fade, drop; animation-duration: 9.7425s, 9.7425s; animation-delay: 2.10089s, 2.10089s;"><img src="<?php echo @IMAGES_URL;?>
+snow4.png" style="animation-name: counterclockwiseSpinAndFlip; animation-duration: 6.07352s;"></div>
+  <div style="top: -100px; left: 72px; animation-name: fade, drop; animation-duration: 8.75899s, 8.75899s; animation-delay: 2.94155s, 2.94155s;"><img src="<?php echo @IMAGES_URL;?>
+snow3.png" style="animation-name: counterclockwiseSpinAndFlip; animation-duration: 7.6326s;"></div>
+  <div style="top: -100px; left: 432px; animation-name: fade, drop; animation-duration: 5.02649s, 5.02649s; animation-delay: 2.76126s, 2.76126s;"><img src="<?php echo @IMAGES_URL;?>
+snow1.png" style="animation-name: clockwiseSpin; animation-duration: 5.00793s;"></div>
+  <div style="top: -100px; left: 462px; animation-name: fade, drop; animation-duration: 8.43778s, 8.43778s; animation-delay: 3.16331s, 3.16331s;"><img src="<?php echo @IMAGES_URL;?>
+snow3.png" style="animation-name: counterclockwiseSpinAndFlip; animation-duration: 7.94162s;"></div>
+  <div style="top: -100px; left: 183px; animation-name: fade, drop; animation-duration: 8.25308s, 8.25308s; animation-delay: 1.89676s, 1.89676s;"><img src="<?php echo @IMAGES_URL;?>
+snow2.png" style="animation-name: counterclockwiseSpinAndFlip; animation-duration: 6.2816s;"></div>
+  <div style="top: -100px; left: 240px; animation-name: fade, drop; animation-duration: 8.15269s, 8.15269s; animation-delay: 2.37378s, 2.37378s;"><img src="<?php echo @IMAGES_URL;?>
+snow1.png" style="animation-name: counterclockwiseSpinAndFlip; animation-duration: 7.55671s;"></div>
+  <div style="top: -100px; left: 185px; animation-name: fade, drop; animation-duration: 10.866s, 10.866s; animation-delay: 0.0585789s, 0.0585789s;"><img src="<?php echo @IMAGES_URL;?>
+snow4.png" style="animation-name: clockwiseSpin; animation-duration: 5.62321s;"></div>
+  <div style="top: -100px; left: 320px; animation-name: fade, drop; animation-duration: 10.907s, 10.907s; animation-delay: 3.06186s, 3.06186s;"><img src="<?php echo @IMAGES_URL;?>
+snow3.png" style="animation-name: counterclockwiseSpinAndFlip; animation-duration: 4.17381s;"></div>
+  <div style="top: -100px; left: 239px; animation-name: fade, drop; animation-duration: 6.00858s, 6.00858s; animation-delay: 2.00419s, 2.00419s;"><img src="<?php echo @IMAGES_URL;?>
+snow2.png" style="animation-name: clockwiseSpin; animation-duration: 5.11997s;"></div>
+  <div style="top: -100px; left: 32px; animation-name: fade, drop; animation-duration: 7.81084s, 7.81084s; animation-delay: 4.80486s, 4.80486s;"><img src="<?php echo @IMAGES_URL;?>
+snow4.png" style="animation-name: clockwiseSpin; animation-duration: 5.14627s;"></div>
+  <div style="top: -100px; left: 433px; animation-name: fade, drop; animation-duration: 10.9416s, 10.9416s; animation-delay: 2.92172s, 2.92172s;"><img src="<?php echo @IMAGES_URL;?>
+snow4.png" style="animation-name: clockwiseSpin; animation-duration: 5.53604s;"></div>
+  <div style="top: -100px; left: 82px; animation-name: fade, drop; animation-duration: 7.27411s, 7.27411s; animation-delay: 2.69407s, 2.69407s;"><img src="<?php echo @IMAGES_URL;?>
+snow3.png" style="animation-name: clockwiseSpin; animation-duration: 6.58658s;"></div>
+  <div style="top: -100px; left: 411px; animation-name: fade, drop; animation-duration: 5.31942s, 5.31942s; animation-delay: 1.40876s, 1.40876s;"><img src="<?php echo @IMAGES_URL;?>
+snow3.png" style="animation-name: clockwiseSpin; animation-duration: 5.80379s;"></div>
+  <div style="top: -100px; left: 47px; animation-name: fade, drop; animation-duration: 8.04316s, 8.04316s; animation-delay: 3.05569s, 3.05569s;"><img src="<?php echo @IMAGES_URL;?>
+snow3.png" style="animation-name: clockwiseSpin; animation-duration: 4.25272s;"></div>
+  <div style="top: -100px; left: 405px; animation-name: fade, drop; animation-duration: 7.24132s, 7.24132s; animation-delay: 2.65923s, 2.65923s;"><img src="<?php echo @IMAGES_URL;?>
+snow4.png" style="animation-name: clockwiseSpin; animation-duration: 7.99009s;"></div>
+  <div style="top: -100px; left: 294px; animation-name: fade, drop; animation-duration: 10.8419s, 10.8419s; animation-delay: 1.68917s, 1.68917s;"><img src="<?php echo @IMAGES_URL;?>
+snow1.png" style="animation-name: counterclockwiseSpinAndFlip; animation-duration: 7.18752s;"></div>
+  <div style="top: -100px; left: 306px; animation-name: fade, drop; animation-duration: 8.68701s, 8.68701s; animation-delay: 2.1123s, 2.1123s;"><img src="<?php echo @IMAGES_URL;?>
+snow2.png" style="animation-name: clockwiseSpin; animation-duration: 5.26823s;"></div>
+  <div style="top: -100px; left: 426px; animation-name: fade, drop; animation-duration: 10.3519s, 10.3519s; animation-delay: 4.50455s, 4.50455s;"><img src="<?php echo @IMAGES_URL;?>
+snow2.png" style="animation-name: clockwiseSpin; animation-duration: 7.94797s;"></div>
+  <div style="top: -100px; left: 225px; animation-name: fade, drop; animation-duration: 10.107s, 10.107s; animation-delay: 2.51269s, 2.51269s;"><img src="<?php echo @IMAGES_URL;?>
+snow3.png" style="animation-name: counterclockwiseSpinAndFlip; animation-duration: 7.40758s;"></div>
+  <div style="top: -100px; left: 447px; animation-name: fade, drop; animation-duration: 6.40263s, 6.40263s; animation-delay: 4.78281s, 4.78281s;"><img src="<?php echo @IMAGES_URL;?>
+snow2.png" style="animation-name: counterclockwiseSpinAndFlip; animation-duration: 4.37992s;"></div>
+  <div style="top: -100px; left: 134px; animation-name: fade, drop; animation-duration: 9.85046s, 9.85046s; animation-delay: 1.09352s, 1.09352s;"><img src="<?php echo @IMAGES_URL;?>
+snow1.png" style="animation-name: counterclockwiseSpinAndFlip; animation-duration: 5.08343s;"></div>
+  <div style="top: -100px; left: 71px; animation-name: fade, drop; animation-duration: 5.57829s, 5.57829s; animation-delay: 0.132466s, 0.132466s;"><img src="<?php echo @IMAGES_URL;?>
+snow1.png" style="animation-name: counterclockwiseSpinAndFlip; animation-duration: 6.82483s;"></div>
+  <div style="top: -100px; left: 38px; animation-name: fade, drop; animation-duration: 6.67839s, 6.67839s; animation-delay: 3.91949s, 3.91949s;"><img src="<?php echo @IMAGES_URL;?>
+snow2.png" style="animation-name: clockwiseSpin; animation-duration: 4.92589s;"></div>
+  <div style="top: -100px; left: 192px; animation-name: fade, drop; animation-duration: 8.76171s, 8.76171s; animation-delay: 0.562143s, 0.562143s;"><img src="<?php echo @IMAGES_URL;?>
+snow2.png" style="animation-name: counterclockwiseSpinAndFlip; animation-duration: 4.50948s;"></div>
+  <div style="top: -100px; left: 482px; animation-name: fade, drop; animation-duration: 5.31566s, 5.31566s; animation-delay: 2.73452s, 2.73452s;"><img src="<?php echo @IMAGES_URL;?>
+snow3.png" style="animation-name: clockwiseSpin; animation-duration: 4.22239s;"></div>
+  <div style="top: -100px; left: 319px; animation-name: fade, drop; animation-duration: 5.87826s, 5.87826s; animation-delay: 1.38372s, 1.38372s;"><img src="<?php echo @IMAGES_URL;?>
+snow2.png" style="animation-name: clockwiseSpin; animation-duration: 6.24446s;"></div>
+  <div style="top: -100px; left: 196px; animation-name: fade, drop; animation-duration: 5.70067s, 5.70067s; animation-delay: 2.0278s, 2.0278s;"><img src="<?php echo @IMAGES_URL;?>
+snow2.png" style="animation-name: counterclockwiseSpinAndFlip; animation-duration: 4.1112s;"></div>
+  <div style="top: -100px; left: 401px; animation-name: fade, drop; animation-duration: 8.46739s, 8.46739s; animation-delay: 1.72206s, 1.72206s;"><img src="<?php echo @IMAGES_URL;?>
+snow1.png" style="animation-name: counterclockwiseSpinAndFlip; animation-duration: 4.56003s;"></div>
+  <div style="top: -100px; left: 313px; animation-name: fade, drop; animation-duration: 9.94874s, 9.94874s; animation-delay: 3.49084s, 3.49084s;"><img src="<?php echo @IMAGES_URL;?>
+snow4.png" style="animation-name: clockwiseSpin; animation-duration: 5.77269s;"></div>
+</div>
+<style>
+ #leafContainer 
+{
+    position:fixed;
+    z-index:2;
+	width:100%;
+    height: 690px;
+	top:0;
+	overflow:hidden;
+}
+ #leafContainer > div 
+{
+    position: absolute;
+    max-width: 100px;
+    max-height: 100px;
+    -webkit-animation-iteration-count: infinite, infinite;
+    -webkit-animation-direction: normal, normal;
+    -webkit-animation-timing-function: linear, ease-in;
+}
+
+#leafContainer > div > img {
+     position: absolute;
+     width: 100%;
+     -webkit-animation-iteration-count: infinite;
+     -webkit-animation-direction: alternate;
+     -webkit-animation-timing-function: ease-in-out;
+     -webkit-transform-origin: 50% -100%;
+}
+
+ @-webkit-keyframes fade
+{
+   
+    0%   { opacity: 1; }
+    95%  { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+ @-webkit-keyframes drop
+{
+       0%   { -webkit-transform: translate(0px, -50px); }
+    100% { -webkit-transform: translate(0px, 650px); }
+}
+ @-webkit-keyframes clockwiseSpin
+{
+    0%   { -webkit-transform: rotate(-50deg); }
+    100% { -webkit-transform: rotate(50deg); }
+}
+ @-webkit-keyframes counterclockwiseSpinAndFlip 
+{
+    
+    0%   { -webkit-transform: scale(-1, 1) rotate(50deg); }
+   
+    100% { -webkit-transform: scale(-1, 1) rotate(-50deg); }
+}
+ </style>
+
+<!--<?php }?>-->
+
+<script type="text/javascript">
+document.addEventListener('WeixinJSBridgeReady', function onBridgeReady() {
+WeixinJSBridge.call('hideToolbar');
+});
+</script>
+<script src="<?php echo @JS_URL;?>
+heka-aeball.js"></script>
+</body>
+</html><?php }} ?>

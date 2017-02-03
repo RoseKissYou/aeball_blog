@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>jQuery UI 日期选择器（Datepicker） - 默认功能</title>
+    <link rel="stylesheet" href="{$smarty.const.CSS_URL}jquery-ui.css">
+    <script src="{$smarty.const.JS_URL}jquery-1.11.1.min.js"></script>
+    <script src="{$smarty.const.JS_URL}jquery-ui.js"></script>
+    <link rel="stylesheet" href="{$smarty.const.CSS_URL}style.css">
+    <script>
+        $(function() {
+            $( "#datepicker" ).datepicker();
+        });
+    </script>
+</head>
+<body>
+<volist>
+    <input id="end_time" name="create_time_end" type="text"  autocomplete="off" onfocus="selecttime(1)">
+</volist>
+<input type="text" name="start_time" id="countTimestart" onfocus="selecttime(1)" value="{$start_time}" size="17" class="date" readonly> - <input type="text" name="end_time" id="countTimeend" onfocus="selecttime(2)" value="{$end_time}" size="17"  class="date" readonly>
+
+
+<p>日期：<input type="text" id="datepicker"></p>
+<!--时间插件-->
+<script src="{$smarty.const.SITE_URL}My97DatePicker/WdatePicker.js"></script>
+</body>
+</html>

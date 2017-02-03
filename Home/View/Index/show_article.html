@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>博客首页</title>
+</head>
+<body>
+<h1>欢迎观看民信博客</h1>
+<div id="rightTop">
+    <ul class="subnav">
+
+
+        <li>微信号列表</li>
+
+        <li><a class="btn1" href="{U('Admin/Articles/new_article')}">新增博客</a></li>
+
+    </ul>
+
+</div>
+
+<div>
+    <ul>
+
+
+        <li>
+            <h2>标题</h2>
+        </li>
+    </ul>
+    <!--{foreach from=$articles item=art}-->
+
+    <p>
+        {$art.title}
+    </p>
+    <p>
+        {$art.content}
+    </p>
+    <!--{foreachelse}-->
+    没有数据
+    <!--{/foreach}-->
+</div>
+
+</body>
+</html>
