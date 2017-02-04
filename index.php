@@ -5,6 +5,7 @@
     //    define('BUILD_CONTROLLER_LIST','Index,User,Menu');  //控制器
     define('SITE_URL','http://tp3.minxing.mmt/');
     //    define('SITE_URL','http://weixin.wertp.cn/');
+    define('COMPANY_NAME','广州聚购网络科技有限公司');
 
     //公用的css,js,images,fonts文件夹宏定义
     //  ----------------Home----------------------
